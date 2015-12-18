@@ -4,7 +4,7 @@
  * Disable bitcode for ios9 projects.
  */
 
-var xcode = require('xcode');
+var xcode = require('./xcode/index.js');
 var fs = require('fs');
 var util = require('cordova-lib/src/cordova/util');
 var ConfigParser = require('cordova-common/src/ConfigParser/ConfigParser');
